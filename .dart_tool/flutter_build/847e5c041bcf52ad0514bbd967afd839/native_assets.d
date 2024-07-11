@@ -1,0 +1,1 @@
+ C:\\dev\\vetApp\\only_vets_client\\.dart_tool\\flutter_build\\847e5c041bcf52ad0514bbd967afd839\\native_assets.yaml: 

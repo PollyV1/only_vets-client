@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806365711430",
+    "project_id": "only-vets",
+    "storage_bucket": "only-vets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806365711430:android:75252bf016c40856610e47",
+        "android_client_info": {
+          "package_name": "com.example.only_vets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiv_Nmu4rbVL6V5zr8eINVDjcjgkYWhSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806365711430:android:2781444a42b651aa610e47",
+        "android_client_info": {
+          "package_name": "com.example.only_vets_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiv_Nmu4rbVL6V5zr8eINVDjcjgkYWhSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
