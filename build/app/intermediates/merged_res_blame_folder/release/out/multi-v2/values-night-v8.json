@@ -4,7 +4,7 @@
             "outputFile": "com.example.only_vets_client.app-mergeReleaseResources-25:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\dev\\vetApp\\only_vets_client\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\dev\\vetApp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

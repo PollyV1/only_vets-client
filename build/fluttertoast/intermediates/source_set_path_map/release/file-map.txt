@@ -4,9 +4,9 @@ io.github.ponnamkarthik.toast.fluttertoast-jetified-window-1.0.0-beta04-2 C:\Use
 io.github.ponnamkarthik.toast.fluttertoast-jetified-annotation-experimental-1.1.0-3 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 io.github.ponnamkarthik.toast.fluttertoast-main-4 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\fluttertoast-8.2.6\android\src\main\res
 io.github.ponnamkarthik.toast.fluttertoast-release-5 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\fluttertoast-8.2.6\android\src\release\res
-io.github.ponnamkarthik.toast.fluttertoast-pngs-6 C:\dev\vetApp\only_vets_client\build\fluttertoast\generated\res\pngs\release
-io.github.ponnamkarthik.toast.fluttertoast-resValues-7 C:\dev\vetApp\only_vets_client\build\fluttertoast\generated\res\resValues\release
-io.github.ponnamkarthik.toast.fluttertoast-rs-8 C:\dev\vetApp\only_vets_client\build\fluttertoast\generated\res\rs\release
-io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-9 C:\dev\vetApp\only_vets_client\build\fluttertoast\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-10 C:\dev\vetApp\only_vets_client\build\fluttertoast\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.github.ponnamkarthik.toast.fluttertoast-merged_res-11 C:\dev\vetApp\only_vets_client\build\fluttertoast\intermediates\merged_res\release
+io.github.ponnamkarthik.toast.fluttertoast-pngs-6 C:\dev\vetApp\build\fluttertoast\generated\res\pngs\release
+io.github.ponnamkarthik.toast.fluttertoast-resValues-7 C:\dev\vetApp\build\fluttertoast\generated\res\resValues\release
+io.github.ponnamkarthik.toast.fluttertoast-rs-8 C:\dev\vetApp\build\fluttertoast\generated\res\rs\release
+io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-9 C:\dev\vetApp\build\fluttertoast\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-10 C:\dev\vetApp\build\fluttertoast\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.github.ponnamkarthik.toast.fluttertoast-merged_res-11 C:\dev\vetApp\build\fluttertoast\intermediates\merged_res\release

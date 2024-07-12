@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:C:\dev\vetApp\only_vets_client\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-      jars="C:\dev\vetApp\only_vets_client\build\app\intermediates\flutter\release\libs.jar"
-      resolved="__local_aars__:C:\dev\vetApp\only_vets_client\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
+      name="__local_aars__:C:\dev\vetApp\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
+      jars="C:\dev\vetApp\build\app\intermediates\flutter\release\libs.jar"
+      resolved="__local_aars__:C:\dev\vetApp\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:cloud_firestore::release"
-      jars="C:\dev\vetApp\only_vets_client\build\cloud_firestore\.transforms\af6b8b81eeacac07048ad077b85fad14\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\cloud_firestore\.transforms\af6b8b81eeacac07048ad077b85fad14\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:cloud_firestore::release"
+      jars="C:\dev\vetApp\build\cloud_firestore\.transforms\5862ef2753b270f24cdfca30dc0285d6\transformed\out\jars\classes.jar;C:\dev\vetApp\build\cloud_firestore\.transforms\5862ef2753b270f24cdfca30dc0285d6\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.firebase.cloudfirestore:cloud_firestore:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\cloud_firestore\.transforms\af6b8b81eeacac07048ad077b85fad14\transformed\out"
+      folder="C:\dev\vetApp\build\cloud_firestore\.transforms\5862ef2753b270f24cdfca30dc0285d6\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:device_apps::release"
-      jars="C:\dev\vetApp\only_vets_client\build\device_apps\.transforms\73a43f52fa12e60d94e38ce1709cd7a4\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\device_apps\.transforms\73a43f52fa12e60d94e38ce1709cd7a4\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:device_apps::release"
+      jars="C:\dev\vetApp\build\device_apps\.transforms\500e8592cc5eac342fb112b8904203f8\transformed\out\jars\classes.jar;C:\dev\vetApp\build\device_apps\.transforms\500e8592cc5eac342fb112b8904203f8\transformed\out\jars\libs\R.jar"
       resolved="fr.g123k.deviceapps:device_apps:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\device_apps\.transforms\73a43f52fa12e60d94e38ce1709cd7a4\transformed\out"
+      folder="C:\dev\vetApp\build\device_apps\.transforms\500e8592cc5eac342fb112b8904203f8\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:external_app_launcher::release"
-      jars="C:\dev\vetApp\only_vets_client\build\external_app_launcher\.transforms\1f3bc36b1f5886b7a97d1b682ada4e05\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\external_app_launcher\.transforms\1f3bc36b1f5886b7a97d1b682ada4e05\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:external_app_launcher::release"
+      jars="C:\dev\vetApp\build\external_app_launcher\.transforms\9b768ad1a5eaff7fa81a8a49f19a5be5\transformed\out\jars\classes.jar;C:\dev\vetApp\build\external_app_launcher\.transforms\9b768ad1a5eaff7fa81a8a49f19a5be5\transformed\out\jars\libs\R.jar"
       resolved="com.example.launchexternalapp:external_app_launcher:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\external_app_launcher\.transforms\1f3bc36b1f5886b7a97d1b682ada4e05\transformed\out"
+      folder="C:\dev\vetApp\build\external_app_launcher\.transforms\9b768ad1a5eaff7fa81a8a49f19a5be5\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:firebase_auth::release"
-      jars="C:\dev\vetApp\only_vets_client\build\firebase_auth\.transforms\5aa6f0ab921831f78d38c0c64a05377e\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\firebase_auth\.transforms\5aa6f0ab921831f78d38c0c64a05377e\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:firebase_auth::release"
+      jars="C:\dev\vetApp\build\firebase_auth\.transforms\682931dfdab6ef101c59f5df856e96d3\transformed\out\jars\classes.jar;C:\dev\vetApp\build\firebase_auth\.transforms\682931dfdab6ef101c59f5df856e96d3\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.firebase.auth:firebase_auth:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\firebase_auth\.transforms\5aa6f0ab921831f78d38c0c64a05377e\transformed\out"
+      folder="C:\dev\vetApp\build\firebase_auth\.transforms\682931dfdab6ef101c59f5df856e96d3\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:firebase_messaging::release"
-      jars="C:\dev\vetApp\only_vets_client\build\firebase_messaging\.transforms\42c910913c1eb20a379280dde3449044\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\firebase_messaging\.transforms\42c910913c1eb20a379280dde3449044\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:firebase_messaging::release"
+      jars="C:\dev\vetApp\build\firebase_messaging\.transforms\40b18a2caf09287ed52adbcf11586ee1\transformed\out\jars\classes.jar;C:\dev\vetApp\build\firebase_messaging\.transforms\40b18a2caf09287ed52adbcf11586ee1\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.firebasemessaging:firebase_messaging:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\firebase_messaging\.transforms\42c910913c1eb20a379280dde3449044\transformed\out"
+      folder="C:\dev\vetApp\build\firebase_messaging\.transforms\40b18a2caf09287ed52adbcf11586ee1\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:firebase_core::release"
-      jars="C:\dev\vetApp\only_vets_client\build\firebase_core\.transforms\57fba45e5b79e40c5f3903eedb7c72aa\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\firebase_core\.transforms\57fba45e5b79e40c5f3903eedb7c72aa\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:firebase_core::release"
+      jars="C:\dev\vetApp\build\firebase_core\.transforms\b24f2bdd437119379756fd9d97e54f1f\transformed\out\jars\classes.jar;C:\dev\vetApp\build\firebase_core\.transforms\b24f2bdd437119379756fd9d97e54f1f\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\firebase_core\.transforms\57fba45e5b79e40c5f3903eedb7c72aa\transformed\out"
+      folder="C:\dev\vetApp\build\firebase_core\.transforms\b24f2bdd437119379756fd9d97e54f1f\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:flutter_local_notifications::release"
-      jars="C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\.transforms\968c60a2947d391ed28aceaee8c4083f\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\.transforms\968c60a2947d391ed28aceaee8c4083f\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:flutter_local_notifications::release"
+      jars="C:\dev\vetApp\build\flutter_local_notifications\.transforms\b1e9a43cde624504b2db468456032996\transformed\out\jars\classes.jar;C:\dev\vetApp\build\flutter_local_notifications\.transforms\b1e9a43cde624504b2db468456032996\transformed\out\jars\libs\R.jar"
       resolved="com.dexterous.flutterlocalnotifications:flutter_local_notifications:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\.transforms\968c60a2947d391ed28aceaee8c4083f\transformed\out"
+      folder="C:\dev\vetApp\build\flutter_local_notifications\.transforms\b1e9a43cde624504b2db468456032996\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:flutter_phone_direct_caller::release"
-      jars="C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\.transforms\07f656046d32e26d5c4ff62234fd4150\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\.transforms\07f656046d32e26d5c4ff62234fd4150\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:flutter_phone_direct_caller::release"
+      jars="C:\dev\vetApp\build\flutter_phone_direct_caller\.transforms\d455cd8d992e6bc89fe2d456d6b1c995\transformed\out\jars\classes.jar;C:\dev\vetApp\build\flutter_phone_direct_caller\.transforms\d455cd8d992e6bc89fe2d456d6b1c995\transformed\out\jars\libs\R.jar"
       resolved="com.yanisalfian.flutterphonedirectcaller:flutter_phone_direct_caller:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\.transforms\07f656046d32e26d5c4ff62234fd4150\transformed\out"
+      folder="C:\dev\vetApp\build\flutter_phone_direct_caller\.transforms\d455cd8d992e6bc89fe2d456d6b1c995\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:fluttertoast::release"
-      jars="C:\dev\vetApp\only_vets_client\build\fluttertoast\.transforms\0b993a57cfbf13c09bb0957dc6350e30\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\fluttertoast\.transforms\0b993a57cfbf13c09bb0957dc6350e30\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:fluttertoast::release"
+      jars="C:\dev\vetApp\build\fluttertoast\.transforms\c3f37fee0ce59b271e5490f634938951\transformed\out\jars\classes.jar;C:\dev\vetApp\build\fluttertoast\.transforms\c3f37fee0ce59b271e5490f634938951\transformed\out\jars\libs\R.jar"
       resolved="com.example.FlutterToast:fluttertoast:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\fluttertoast\.transforms\0b993a57cfbf13c09bb0957dc6350e30\transformed\out"
+      folder="C:\dev\vetApp\build\fluttertoast\.transforms\c3f37fee0ce59b271e5490f634938951\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -121,10 +121,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:path_provider_android::release"
-      jars="C:\dev\vetApp\only_vets_client\build\path_provider_android\.transforms\ff19e162aff93d795bb1cfca79516c86\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\path_provider_android\.transforms\ff19e162aff93d795bb1cfca79516c86\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:path_provider_android::release"
+      jars="C:\dev\vetApp\build\path_provider_android\.transforms\40a166eab4edb061a72a875aa8f0cc98\transformed\out\jars\classes.jar;C:\dev\vetApp\build\path_provider_android\.transforms\40a166eab4edb061a72a875aa8f0cc98\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\path_provider_android\.transforms\ff19e162aff93d795bb1cfca79516c86\transformed\out"
+      folder="C:\dev\vetApp\build\path_provider_android\.transforms\40a166eab4edb061a72a875aa8f0cc98\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -134,10 +134,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:permission_handler_android::release"
-      jars="C:\dev\vetApp\only_vets_client\build\permission_handler_android\.transforms\a1fc13b683176ce9404f26168d01eec9\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\permission_handler_android\.transforms\a1fc13b683176ce9404f26168d01eec9\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:permission_handler_android::release"
+      jars="C:\dev\vetApp\build\permission_handler_android\.transforms\b70de86f65ff8180694fb889633f1d82\transformed\out\jars\classes.jar;C:\dev\vetApp\build\permission_handler_android\.transforms\b70de86f65ff8180694fb889633f1d82\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.permissionhandler:permission_handler_android:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\permission_handler_android\.transforms\a1fc13b683176ce9404f26168d01eec9\transformed\out"
+      folder="C:\dev\vetApp\build\permission_handler_android\.transforms\b70de86f65ff8180694fb889633f1d82\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -147,10 +147,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:push_android::release"
-      jars="C:\dev\vetApp\only_vets_client\build\push_android\.transforms\1086525067003bb6f8cc54ca4c3e3a7a\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\push_android\.transforms\1086525067003bb6f8cc54ca4c3e3a7a\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:push_android::release"
+      jars="C:\dev\vetApp\build\push_android\.transforms\467ab2be757f988243bb0dfd3d82b89a\transformed\out\jars\classes.jar;C:\dev\vetApp\build\push_android\.transforms\467ab2be757f988243bb0dfd3d82b89a\transformed\out\jars\libs\R.jar"
       resolved="uk.orth.push:push_android:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\push_android\.transforms\1086525067003bb6f8cc54ca4c3e3a7a\transformed\out"
+      folder="C:\dev\vetApp\build\push_android\.transforms\467ab2be757f988243bb0dfd3d82b89a\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -160,10 +160,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:shared_preferences_android::release"
-      jars="C:\dev\vetApp\only_vets_client\build\shared_preferences_android\.transforms\129a4a520d045b7eaa12b6cc53eaf289\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\shared_preferences_android\.transforms\129a4a520d045b7eaa12b6cc53eaf289\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:shared_preferences_android::release"
+      jars="C:\dev\vetApp\build\shared_preferences_android\.transforms\5f0371294172bfc58f7f62c6ca62d3b9\transformed\out\jars\classes.jar;C:\dev\vetApp\build\shared_preferences_android\.transforms\5f0371294172bfc58f7f62c6ca62d3b9\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\shared_preferences_android\.transforms\129a4a520d045b7eaa12b6cc53eaf289\transformed\out"
+      folder="C:\dev\vetApp\build\shared_preferences_android\.transforms\5f0371294172bfc58f7f62c6ca62d3b9\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -173,10 +173,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\dev\vetApp\only_vets_client\android@@:url_launcher_android::release"
-      jars="C:\dev\vetApp\only_vets_client\build\url_launcher_android\.transforms\e3562f2a37df98861cbc6f3cba78844d\transformed\out\jars\classes.jar;C:\dev\vetApp\only_vets_client\build\url_launcher_android\.transforms\e3562f2a37df98861cbc6f3cba78844d\transformed\out\jars\libs\R.jar"
+      name="C:\dev\vetApp\android@@:url_launcher_android::release"
+      jars="C:\dev\vetApp\build\url_launcher_android\.transforms\13f2a510b2630edbb051208a87b24215\transformed\out\jars\classes.jar;C:\dev\vetApp\build\url_launcher_android\.transforms\13f2a510b2630edbb051208a87b24215\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="C:\dev\vetApp\only_vets_client\build\url_launcher_android\.transforms\e3562f2a37df98861cbc6f3cba78844d\transformed\out"
+      folder="C:\dev\vetApp\build\url_launcher_android\.transforms\13f2a510b2630edbb051208a87b24215\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

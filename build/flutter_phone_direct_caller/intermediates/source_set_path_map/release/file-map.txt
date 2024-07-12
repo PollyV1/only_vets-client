@@ -4,9 +4,9 @@ com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-jetified-wi
 com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-jetified-annotation-experimental-1.1.0-3 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-main-4 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_phone_direct_caller-2.1.1\android\src\main\res
 com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-release-5 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_phone_direct_caller-2.1.1\android\src\release\res
-com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-pngs-6 C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\generated\res\pngs\release
-com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-resValues-7 C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\generated\res\resValues\release
-com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-rs-8 C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\generated\res\rs\release
-com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-mergeReleaseResources-9 C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\intermediates\incremental\release\mergeReleaseResources\merged.dir
-com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-mergeReleaseResources-10 C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-merged_res-11 C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\intermediates\merged_res\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-pngs-6 C:\dev\vetApp\build\flutter_phone_direct_caller\generated\res\pngs\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-resValues-7 C:\dev\vetApp\build\flutter_phone_direct_caller\generated\res\resValues\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-rs-8 C:\dev\vetApp\build\flutter_phone_direct_caller\generated\res\rs\release
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-mergeReleaseResources-9 C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-mergeReleaseResources-10 C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.yanisalfian.flutterphonedirectcaller.flutter_phone_direct_caller-merged_res-11 C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\merged_res\release

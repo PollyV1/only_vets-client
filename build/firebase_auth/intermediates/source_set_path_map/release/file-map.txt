@@ -11,10 +11,10 @@ io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-21.0.0-9
 io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-10 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 io.flutter.plugins.firebase.auth.firebase_auth-main-11 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.1.1\android\src\main\res
 io.flutter.plugins.firebase.auth.firebase_auth-release-12 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-5.1.1\android\src\release\res
-io.flutter.plugins.firebase.auth.firebase_auth-pngs-13 C:\dev\vetApp\only_vets_client\build\firebase_auth\generated\res\pngs\release
-io.flutter.plugins.firebase.auth.firebase_auth-resValues-14 C:\dev\vetApp\only_vets_client\build\firebase_auth\generated\res\resValues\release
-io.flutter.plugins.firebase.auth.firebase_auth-rs-15 C:\dev\vetApp\only_vets_client\build\firebase_auth\generated\res\rs\release
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-16 C:\dev\vetApp\only_vets_client\build\firebase_auth\intermediates\incremental\release\mergeReleaseResources\merged.dir
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-17 C:\dev\vetApp\only_vets_client\build\firebase_auth\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-io.flutter.plugins.firebase.auth.firebase_auth-merged_res-18 C:\dev\vetApp\only_vets_client\build\firebase_auth\intermediates\merged_res\release
-io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-19 C:\dev\vetApp\only_vets_client\build\firebase_core\intermediates\packaged_res\release
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-13 C:\dev\vetApp\build\firebase_auth\generated\res\pngs\release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-14 C:\dev\vetApp\build\firebase_auth\generated\res\resValues\release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-15 C:\dev\vetApp\build\firebase_auth\generated\res\rs\release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-16 C:\dev\vetApp\build\firebase_auth\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-17 C:\dev\vetApp\build\firebase_auth\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-18 C:\dev\vetApp\build\firebase_auth\intermediates\merged_res\release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-19 C:\dev\vetApp\build\firebase_core\intermediates\packaged_res\release

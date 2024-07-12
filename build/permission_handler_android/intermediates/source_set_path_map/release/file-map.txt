@@ -4,9 +4,9 @@ com.baseflow.permissionhandler.permission_handler_android-jetified-window-1.0.0-
 com.baseflow.permissionhandler.permission_handler_android-jetified-annotation-experimental-1.1.0-3 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 com.baseflow.permissionhandler.permission_handler_android-main-4 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.0.7\android\src\main\res
 com.baseflow.permissionhandler.permission_handler_android-release-5 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.0.7\android\src\release\res
-com.baseflow.permissionhandler.permission_handler_android-pngs-6 C:\dev\vetApp\only_vets_client\build\permission_handler_android\generated\res\pngs\release
-com.baseflow.permissionhandler.permission_handler_android-resValues-7 C:\dev\vetApp\only_vets_client\build\permission_handler_android\generated\res\resValues\release
-com.baseflow.permissionhandler.permission_handler_android-rs-8 C:\dev\vetApp\only_vets_client\build\permission_handler_android\generated\res\rs\release
-com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-9 C:\dev\vetApp\only_vets_client\build\permission_handler_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
-com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-10 C:\dev\vetApp\only_vets_client\build\permission_handler_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-com.baseflow.permissionhandler.permission_handler_android-merged_res-11 C:\dev\vetApp\only_vets_client\build\permission_handler_android\intermediates\merged_res\release
+com.baseflow.permissionhandler.permission_handler_android-pngs-6 C:\dev\vetApp\build\permission_handler_android\generated\res\pngs\release
+com.baseflow.permissionhandler.permission_handler_android-resValues-7 C:\dev\vetApp\build\permission_handler_android\generated\res\resValues\release
+com.baseflow.permissionhandler.permission_handler_android-rs-8 C:\dev\vetApp\build\permission_handler_android\generated\res\rs\release
+com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-9 C:\dev\vetApp\build\permission_handler_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.baseflow.permissionhandler.permission_handler_android-mergeReleaseResources-10 C:\dev\vetApp\build\permission_handler_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.baseflow.permissionhandler.permission_handler_android-merged_res-11 C:\dev\vetApp\build\permission_handler_android\intermediates\merged_res\release

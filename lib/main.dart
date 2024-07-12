@@ -19,7 +19,7 @@ import 'login_page.dart';
 import 'register_page.dart';
 import 'location_page.dart';
 import 'notification_page.dart';
-import 'loading_screen.dart'; // Assuming you have a LoadingScreen widget defined
+import 'loading_screen.dart'; 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is C:\dev\vetApp\only_vets_client\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0
+# The proguard configuration file for the following section is C:\dev\vetApp\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,7 +116,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from C:\dev\vetApp\only_vets_client\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0
+# End of content from C:\dev\vetApp\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0
 # The proguard configuration file for the following section is C:\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
@@ -127,7 +127,7 @@
 -dontwarn android.**
 
 # End of content from C:\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
-# The proguard configuration file for the following section is C:\dev\vetApp\only_vets_client\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\dev\vetApp\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.credentials.playservices.CredentialProviderMetadataHolder { <init>(); }
@@ -160,7 +160,7 @@
 -keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from C:\dev\vetApp\only_vets_client\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from C:\dev\vetApp\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 # The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\f7596ae26cad3a732bea1bb4a0ae5092\transformed\jetified-firebase-firestore-25.0.0\proguard.txt
 # Needed for DNS resolution.  Present in OpenJDK, but not Android
 -dontwarn javax.naming.**

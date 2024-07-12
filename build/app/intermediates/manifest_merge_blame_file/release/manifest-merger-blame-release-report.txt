@@ -2,23 +2,23 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.only_vets_client"
 4    android:versionCode="1"
-5    android:versionName="0.1.0" >
+5    android:versionName="0.1.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml
+8-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml
+9-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CALL_PHONE" />
-11-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:2:5-68
-11-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:2:22-66
+11-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:2:5-68
+11-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:2:22-66
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:3:5-66
-12-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:3:22-64
+12-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:3:5-66
+12-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:3:22-64
 13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-13-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:4:5-80
-13-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:4:22-78
+13-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:4:5-80
+13-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:4:22-78
 14
 15    <!--
 16         Required to query activities that can process text, see:
@@ -27,38 +27,38 @@
 19         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 20    -->
 21    <queries>
-21-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:58:5-63:15
+21-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:58:5-63:15
 22        <intent>
-22-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:59:9-62:18
+22-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:59:9-62:18
 23            <action android:name="android.intent.action.PROCESS_TEXT" />
-23-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:60:13-72
-23-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:60:21-70
+23-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:60:13-72
+23-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:60:21-70
 24
 25            <data android:mimeType="text/plain" />
-25-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:61:13-50
-25-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:61:19-48
+25-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:61:13-50
+25-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:61:19-48
 26        </intent>
 27    </queries>
 28
 29    <uses-permission android:name="android.permission.WAKE_LOCK" />
-29-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
-29-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+29-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+29-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
 30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
-30-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
-30-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+30-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+30-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
 31    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-31-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
-31-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+31-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+31-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
 32    <uses-permission android:name="android.permission.VIBRATE" />
-32-->[:flutter_local_notifications] C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
-32-->[:flutter_local_notifications] C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
+32-->[:flutter_local_notifications] C:\dev\vetApp\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
+32-->[:flutter_local_notifications] C:\dev\vetApp\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
 33
 34    <uses-feature
-34-->[:flutter_phone_direct_caller] C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+34-->[:flutter_phone_direct_caller] C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
 35        android:name="android.hardware.telephony"
-35-->[:flutter_phone_direct_caller] C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-50
+35-->[:flutter_phone_direct_caller] C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-50
 36        android:required="false" />
-36-->[:flutter_phone_direct_caller] C:\dev\vetApp\only_vets_client\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+36-->[:flutter_phone_direct_caller] C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
 37
 38    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 38-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\paulv\.gradle\caches\transforms-3\3f9147cd961f12bc5dd3795d98a041f2\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:25:5-79
@@ -92,57 +92,57 @@
 50
 51    <application
 52        android:name="android.app.Application"
-52-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:5:44-77
+52-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:5:44-77
 53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 53-->[androidx.core:core:1.10.1] C:\Users\paulv\.gradle\caches\transforms-3\95d01c61795cd1d555069b40d187364a\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 54        android:enableOnBackInvokedCallback="true"
-54-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:5:115-157
+54-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:5:115-157
 55        android:extractNativeLibs="false"
 56        android:icon="@mipmap/launcher_icon"
-56-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:5:78-114
+56-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:5:78-114
 57        android:label="OrozcoVet" >
-57-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:5:18-43
+57-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:5:18-43
 58        <activity
-58-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:9-20:20
+58-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:9-20:20
 59            android:name="com.example.only_vets_client.MainActivity"
-59-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:19-47
+59-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:19-47
 60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-60-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:162-312
+60-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:162-312
 61            android:exported="true"
-61-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:48-71
+61-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:48-71
 62            android:hardwareAccelerated="true"
-62-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:313-347
+62-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:313-347
 63            android:launchMode="singleTop"
-63-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:72-102
+63-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:72-102
 64            android:taskAffinity=""
-64-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:103-126
+64-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:103-126
 65            android:theme="@style/LaunchTheme"
-65-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:127-161
+65-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:127-161
 66            android:windowSoftInputMode="adjustResize" >
-66-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:6:348-390
+66-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:6:348-390
 67
 68            <!-- Specify the intent-filter for the main activity -->
 69            <intent-filter>
-69-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:9:13-12:29
+69-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:9:13-12:29
 70                <action android:name="android.intent.action.MAIN" />
-70-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:10:17-68
-70-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:10:25-66
+70-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:10:17-68
+70-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:10:25-66
 71
 72                <category android:name="android.intent.category.LAUNCHER" />
-72-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:11:17-76
-72-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:11:27-74
+72-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:11:17-76
+72-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:11:27-74
 73            </intent-filter>
 74
 75            <!-- Handle notification clicks -->
 76            <intent-filter>
-76-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:15:13-18:29
+76-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:15:13-18:29
 77                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
-77-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:16:17-68
-77-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:16:25-66
+77-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:16:17-68
+77-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:16:25-66
 78
 79                <category android:name="android.intent.category.DEFAULT" />
-79-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:17:17-75
-79-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:17:27-73
+79-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:17:17-75
+79-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:17:27-73
 80            </intent-filter>
 81        </activity>
 82
@@ -151,69 +151,69 @@
 85            This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 86        -->
 87        <meta-data
-87-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:24:9-71
+87-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:24:9-71
 88            android:name="flutterEmbedding"
-88-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:24:20-51
+88-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:24:20-51
 89            android:value="2" />
-89-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:24:52-69
+89-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:24:52-69
 90        <meta-data
-90-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:26:9-138
+90-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:26:9-138
 91            android:name="com.google.firebase.messaging.defa.ult_notification_icon"
-91-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:26:20-91
+91-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:26:20-91
 92            android:resource="@drawable/ic_notification" />
-92-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:26:92-136
+92-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:26:92-136
 93        <meta-data
-93-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:27:9-154
+93-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:27:9-154
 94            android:name="com.google.firebase.messaging.default_notification_channel_id"
-94-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:27:20-96
+94-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:27:20-96
 95            android:value="@string/default_notification_channel_id" />
-95-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:27:97-152
+95-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:27:97-152
 96        <meta-data
-96-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:29:9-99
+96-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:29:9-99
 97            android:name="com.google.android.gms.wallet.api.enabled"
-97-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:29:20-76
+97-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:29:20-76
 98            android:value="true" />
-98-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:29:77-97
+98-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:29:77-97
 99
 100        <service
-100-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:31:9-35:19
+100-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:31:9-35:19
 101            android:name="com.example.only_vets_client.firebase.MyFirebaseMessagingService"
-101-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:31:18-69
+101-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:31:18-69
 102            android:exported="true" >
-102-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:31:70-93
+102-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:31:70-93
 103            <intent-filter>
-103-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:32:13-34:29
+103-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:32:13-34:29
 104                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-104-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:17-77
-104-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:25-75
+104-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:17-77
+104-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:25-75
 105            </intent-filter>
 106        </service>
 107
 108        <receiver
-108-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:37:9-43:20
+108-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:37:9-43:20
 109            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-109-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:37:19-84
+109-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:37:19-84
 110            android:exported="true"
-110-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:37:85-108
+110-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:37:85-108
 111            android:permission="com.google.android.c2dm.permission.SEND" >
-111-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:37:109-169
+111-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:37:109-169
 112            <intent-filter>
-112-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:38:13-42:29
+112-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:38:13-42:29
 113                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-113-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:17-80
-113-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:25-78
+113-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:17-80
+113-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:25-78
 114                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-114-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:40:17-85
-114-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:40:25-83
+114-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:40:17-85
+114-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:40:25-83
 115
 116                <category android:name="com.example.only_vets_client" />
-116-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:41:27-58
+116-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:41:27-58
 117            </intent-filter>
 118            <intent-filter>
-118-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+118-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
 119                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-119-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:17-80
-119-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:25-78
+119-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:17-80
+119-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:25-78
 120            </intent-filter>
 121
 122            <meta-data
@@ -224,61 +224,61 @@
 124-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\paulv\.gradle\caches\transforms-3\e486646388ec5b52361d5043061110e3\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
 125        </receiver>
 126        <receiver
-126-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:45:9-51:20
+126-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:45:9-51:20
 127            android:name="com.google.firebase.messaging.FirebaseMessagingReceiver"
-127-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:45:19-89
+127-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:45:19-89
 128            android:enabled="true"
-128-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:45:90-112
+128-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:45:90-112
 129            android:exported="true"
-129-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:45:113-136
+129-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:45:113-136
 130            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
-130-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:45:137-199
+130-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:45:137-199
 131            <intent-filter>
-131-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:46:13-50:29
+131-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:46:13-50:29
 132                <action android:name="android.intent.action.BOOT_COMPLETED" />
-132-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:47:17-78
-132-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:47:25-76
+132-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:47:17-78
+132-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:47:25-76
 133                <action android:name="android.intent.action.REBOOT" />
-133-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:48:17-70
-133-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:48:25-68
+133-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:48:17-70
+133-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:48:25-68
 134                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-134-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:49:17-85
-134-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:49:25-83
+134-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:49:17-85
+134-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:49:25-83
 135            </intent-filter>
 136        </receiver>
 137
 138        <service
-138-->[:cloud_firestore] C:\dev\vetApp\only_vets_client\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+138-->[:cloud_firestore] C:\dev\vetApp\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
 139            android:name="com.google.firebase.components.ComponentDiscoveryService"
-139-->[:cloud_firestore] C:\dev\vetApp\only_vets_client\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+139-->[:cloud_firestore] C:\dev\vetApp\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
 140            android:directBootAware="true"
 140-->[com.google.firebase:firebase-common:21.0.0] C:\Users\paulv\.gradle\caches\transforms-3\f4840dd1def12809ed5a4a301fd8d40e\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 141            android:exported="false" >
 141-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\paulv\.gradle\caches\transforms-3\f7596ae26cad3a732bea1bb4a0ae5092\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:16:13-37
 142            <meta-data
-142-->[:cloud_firestore] C:\dev\vetApp\only_vets_client\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+142-->[:cloud_firestore] C:\dev\vetApp\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
 143                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-143-->[:cloud_firestore] C:\dev\vetApp\only_vets_client\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+143-->[:cloud_firestore] C:\dev\vetApp\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
 144                android:value="com.google.firebase.components.ComponentRegistrar" />
-144-->[:cloud_firestore] C:\dev\vetApp\only_vets_client\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+144-->[:cloud_firestore] C:\dev\vetApp\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
 145            <meta-data
-145-->[:firebase_auth] C:\dev\vetApp\only_vets_client\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+145-->[:firebase_auth] C:\dev\vetApp\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
 146                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-146-->[:firebase_auth] C:\dev\vetApp\only_vets_client\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+146-->[:firebase_auth] C:\dev\vetApp\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
 147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[:firebase_auth] C:\dev\vetApp\only_vets_client\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+147-->[:firebase_auth] C:\dev\vetApp\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
 148            <meta-data
-148-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
+148-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
 149                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-149-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
+149-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
 150                android:value="com.google.firebase.components.ComponentRegistrar" />
-150-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
+150-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
 151            <meta-data
-151-->[:firebase_core] C:\dev\vetApp\only_vets_client\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+151-->[:firebase_core] C:\dev\vetApp\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
 152                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-152-->[:firebase_core] C:\dev\vetApp\only_vets_client\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+152-->[:firebase_core] C:\dev\vetApp\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
 153                android:value="com.google.firebase.components.ComponentRegistrar" />
-153-->[:firebase_core] C:\dev\vetApp\only_vets_client\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+153-->[:firebase_core] C:\dev\vetApp\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
 154            <meta-data
 154-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\paulv\.gradle\caches\transforms-3\f7596ae26cad3a732bea1bb4a0ae5092\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
 155                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
@@ -353,92 +353,92 @@
 189-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\paulv\.gradle\caches\transforms-3\02b05a9130d64e147a13807ddb06c9e2\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
 190        </service>
 191        <service
-191-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
+191-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
 192            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-192-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
+192-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
 193            android:exported="false"
-193-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+193-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
 194            android:permission="android.permission.BIND_JOB_SERVICE" />
-194-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
+194-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
 195        <service
-195-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
+195-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
 196            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-196-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
+196-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
 197            android:exported="false" >
-197-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+197-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
 198            <intent-filter>
-198-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:32:13-34:29
+198-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:32:13-34:29
 199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-199-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:17-77
-199-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:25-75
+199-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:17-77
+199-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:25-75
 200            </intent-filter>
 201        </service>
 202
 203        <receiver
-203-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
+203-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
 204            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-204-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
+204-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
 205            android:exported="true"
-205-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
+205-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
 206            android:permission="com.google.android.c2dm.permission.SEND" >
-206-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
+206-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
 207            <intent-filter>
-207-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+207-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
 208                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-208-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:17-80
-208-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:25-78
+208-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:17-80
+208-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:25-78
 209            </intent-filter>
 210        </receiver>
 211
 212        <provider
-212-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
+212-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
 213            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-213-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
+213-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
 214            android:authorities="com.example.only_vets_client.flutterfirebasemessaginginitprovider"
-214-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
+214-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
 215            android:exported="false"
-215-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
+215-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
 216            android:initOrder="99" />
-216-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
+216-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
 217
 218        <receiver
-218-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-19:20
+218-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-19:20
 219            android:name="uk.orth.push.FirebaseMessagingReceiver"
-219-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-66
+219-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-66
 220            android:exported="true"
-220-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-36
+220-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-36
 221            android:permission="com.google.android.c2dm.permission.SEND" >
-221-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-73
+221-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-73
 222            <intent-filter>
-222-->[:firebase_messaging] C:\dev\vetApp\only_vets_client\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+222-->[:firebase_messaging] C:\dev\vetApp\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
 223                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-223-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:17-80
-223-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:39:25-78
+223-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:17-80
+223-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:39:25-78
 224            </intent-filter>
 225        </receiver>
 226
 227        <service
-227-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-27:19
+227-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-27:19
 228            android:name="uk.orth.push.MessagingService"
-228-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-57
+228-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-57
 229            android:exported="false" >
-229-->[:push_android] C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+229-->[:push_android] C:\dev\vetApp\build\push_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
 230            <intent-filter>
-230-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:32:13-34:29
+230-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:32:13-34:29
 231                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-231-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:17-77
-231-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:25-75
+231-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:17-77
+231-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:25-75
 232            </intent-filter>
 233        </service>
 234
 235        <activity
-235-->[:url_launcher_android] C:\dev\vetApp\only_vets_client\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+235-->[:url_launcher_android] C:\dev\vetApp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
 236            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-236-->[:url_launcher_android] C:\dev\vetApp\only_vets_client\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+236-->[:url_launcher_android] C:\dev\vetApp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
 237            android:exported="false"
-237-->[:url_launcher_android] C:\dev\vetApp\only_vets_client\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+237-->[:url_launcher_android] C:\dev\vetApp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
 238            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-238-->[:url_launcher_android] C:\dev\vetApp\only_vets_client\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+238-->[:url_launcher_android] C:\dev\vetApp\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
 239        <activity
 239-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
 240            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -458,14 +458,14 @@
 246-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
 247
 248                <category android:name="android.intent.category.DEFAULT" />
-248-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:17:17-75
-248-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:17:27-73
+248-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:17:17-75
+248-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:17:27-73
 249                <category android:name="android.intent.category.BROWSABLE" />
 249-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
 249-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
 250
 251                <data
-251-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:61:13-50
+251-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:61:13-50
 252                    android:host="firebase.auth"
 253                    android:path="/"
 254                    android:scheme="genericidp" />
@@ -490,14 +490,14 @@
 264-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
 265
 266                <category android:name="android.intent.category.DEFAULT" />
-266-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:17:17-75
-266-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:17:27-73
+266-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:17:17-75
+266-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:17:27-73
 267                <category android:name="android.intent.category.BROWSABLE" />
 267-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
 267-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\paulv\.gradle\caches\transforms-3\1f3897eb4c9acff4a76bc260eba4d01f\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
 268
 269                <data
-269-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:61:13-50
+269-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:61:13-50
 270                    android:host="firebase.auth"
 271                    android:path="/"
 272                    android:scheme="recaptcha" />
@@ -523,10 +523,10 @@
 286            android:exported="false" >
 286-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\paulv\.gradle\caches\transforms-3\e486646388ec5b52361d5043061110e3\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
 287            <intent-filter android:priority="-500" >
-287-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:32:13-34:29
+287-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:32:13-34:29
 288                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-288-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:17-77
-288-->C:\dev\vetApp\only_vets_client\android\app\src\main\AndroidManifest.xml:33:25-75
+288-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:17-77
+288-->C:\dev\vetApp\android\app\src\main\AndroidManifest.xml:33:25-75
 289            </intent-filter>
 290        </service>
 291        <service

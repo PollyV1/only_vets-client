@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">806365711430</string>
-    <string name="google_api_key" translatable="false">AIzaSyDiv_Nmu4rbVL6V5zr8eINVDjcjgkYWhSg</string>
-    <string name="google_app_id" translatable="false">1:806365711430:android:2781444a42b651aa610e47</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDiv_Nmu4rbVL6V5zr8eINVDjcjgkYWhSg</string>
-    <string name="google_storage_bucket" translatable="false">only-vets.appspot.com</string>
-    <string name="project_id" translatable="false">only-vets</string>
-</resources>

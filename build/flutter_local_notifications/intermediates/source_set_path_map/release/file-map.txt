@@ -5,9 +5,9 @@ com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-
 com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-4 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-5 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-17.2.1\android\src\main\res
 com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-6 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-17.2.1\android\src\release\res
-com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\generated\res\pngs\release
-com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\generated\res\resValues\release
-com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\generated\res\rs\release
-com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\merged.dir
-com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 C:\dev\vetApp\only_vets_client\build\flutter_local_notifications\intermediates\merged_res\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 C:\dev\vetApp\build\flutter_local_notifications\generated\res\pngs\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 C:\dev\vetApp\build\flutter_local_notifications\generated\res\resValues\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 C:\dev\vetApp\build\flutter_local_notifications\generated\res\rs\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 C:\dev\vetApp\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 C:\dev\vetApp\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 C:\dev\vetApp\build\flutter_local_notifications\intermediates\merged_res\release

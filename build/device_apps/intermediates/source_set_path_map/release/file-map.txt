@@ -4,9 +4,9 @@ fr.g123k.deviceapps.device_apps-jetified-window-1.0.0-beta04-2 C:\Users\paulv\.g
 fr.g123k.deviceapps.device_apps-jetified-annotation-experimental-1.1.0-3 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 fr.g123k.deviceapps.device_apps-main-4 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\device_apps-2.2.0\android\src\main\res
 fr.g123k.deviceapps.device_apps-release-5 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\device_apps-2.2.0\android\src\release\res
-fr.g123k.deviceapps.device_apps-pngs-6 C:\dev\vetApp\only_vets_client\build\device_apps\generated\res\pngs\release
-fr.g123k.deviceapps.device_apps-resValues-7 C:\dev\vetApp\only_vets_client\build\device_apps\generated\res\resValues\release
-fr.g123k.deviceapps.device_apps-rs-8 C:\dev\vetApp\only_vets_client\build\device_apps\generated\res\rs\release
-fr.g123k.deviceapps.device_apps-mergeReleaseResources-9 C:\dev\vetApp\only_vets_client\build\device_apps\intermediates\incremental\release\mergeReleaseResources\merged.dir
-fr.g123k.deviceapps.device_apps-mergeReleaseResources-10 C:\dev\vetApp\only_vets_client\build\device_apps\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-fr.g123k.deviceapps.device_apps-merged_res-11 C:\dev\vetApp\only_vets_client\build\device_apps\intermediates\merged_res\release
+fr.g123k.deviceapps.device_apps-pngs-6 C:\dev\vetApp\build\device_apps\generated\res\pngs\release
+fr.g123k.deviceapps.device_apps-resValues-7 C:\dev\vetApp\build\device_apps\generated\res\resValues\release
+fr.g123k.deviceapps.device_apps-rs-8 C:\dev\vetApp\build\device_apps\generated\res\rs\release
+fr.g123k.deviceapps.device_apps-mergeReleaseResources-9 C:\dev\vetApp\build\device_apps\intermediates\incremental\release\mergeReleaseResources\merged.dir
+fr.g123k.deviceapps.device_apps-mergeReleaseResources-10 C:\dev\vetApp\build\device_apps\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+fr.g123k.deviceapps.device_apps-merged_res-11 C:\dev\vetApp\build\device_apps\intermediates\merged_res\release

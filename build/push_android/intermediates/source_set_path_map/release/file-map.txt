@@ -6,9 +6,9 @@ uk.orth.push.push_android-jetified-firebase-messaging-23.0.0-4 C:\Users\paulv\.g
 uk.orth.push.push_android-jetified-annotation-experimental-1.1.0-5 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
 uk.orth.push.push_android-main-6 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\push_android-0.6.0\android\src\main\res
 uk.orth.push.push_android-release-7 C:\Users\paulv\AppData\Local\Pub\Cache\hosted\pub.dev\push_android-0.6.0\android\src\release\res
-uk.orth.push.push_android-pngs-8 C:\dev\vetApp\only_vets_client\build\push_android\generated\res\pngs\release
-uk.orth.push.push_android-resValues-9 C:\dev\vetApp\only_vets_client\build\push_android\generated\res\resValues\release
-uk.orth.push.push_android-rs-10 C:\dev\vetApp\only_vets_client\build\push_android\generated\res\rs\release
-uk.orth.push.push_android-mergeReleaseResources-11 C:\dev\vetApp\only_vets_client\build\push_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
-uk.orth.push.push_android-mergeReleaseResources-12 C:\dev\vetApp\only_vets_client\build\push_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-uk.orth.push.push_android-merged_res-13 C:\dev\vetApp\only_vets_client\build\push_android\intermediates\merged_res\release
+uk.orth.push.push_android-pngs-8 C:\dev\vetApp\build\push_android\generated\res\pngs\release
+uk.orth.push.push_android-resValues-9 C:\dev\vetApp\build\push_android\generated\res\resValues\release
+uk.orth.push.push_android-rs-10 C:\dev\vetApp\build\push_android\generated\res\rs\release
+uk.orth.push.push_android-mergeReleaseResources-11 C:\dev\vetApp\build\push_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+uk.orth.push.push_android-mergeReleaseResources-12 C:\dev\vetApp\build\push_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+uk.orth.push.push_android-merged_res-13 C:\dev\vetApp\build\push_android\intermediates\merged_res\release

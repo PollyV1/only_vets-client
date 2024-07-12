@@ -4,25 +4,6 @@
             "outputFile": "com.example.only_vets_client.app-mergeReleaseResources-25:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\dev\\vetApp\\only_vets_client\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "158,162",
-                        "startColumns": "4,4",
-                        "startOffsets": "11367,11548",
-                        "endLines": "161,164",
-                        "endColumns": "12,12",
-                        "endOffsets": "11543,11712"
-                    }
-                },
-                {
                     "source": "C:\\Users\\paulv\\.gradle\\caches\\transforms-3\\cfe41ee0d3b5ff0281bdab9ba8aca526\\transformed\\media-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
@@ -37,6 +18,23 @@
                         "startOffsets": "1844,1933,2004,3686,3739,3792,3845,7053,12035,12211,12333,12595,12790",
                         "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
                         "endOffsets": "1928,1999,2072,3734,3787,3840,3893,7108,12096,12328,12389,12656,12852"
+                    }
+                },
+                {
+                    "source": "C:\\dev\\vetApp\\build\\app\\generated\\res\\google-services\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,563",
+                        "endColumns": "81,103,108,119,92,69",
+                        "endOffsets": "132,236,345,465,558,628"
+                    },
+                    "to": {
+                        "startLines": "151,152,153,154,155,156",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "10718,10800,10904,11013,11133,11226",
+                        "endColumns": "81,103,108,119,92,69",
+                        "endOffsets": "10795,10899,11008,11128,11221,11291"
                     }
                 },
                 {
@@ -78,20 +76,22 @@
                     }
                 },
                 {
-                    "source": "C:\\dev\\vetApp\\only_vets_client\\build\\app\\generated\\res\\google-services\\release\\values\\values.xml",
+                    "source": "C:\\dev\\vetApp\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,563",
-                        "endColumns": "81,103,108,119,92,69",
-                        "endOffsets": "132,236,345,465,558,628"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
                     },
                     "to": {
-                        "startLines": "151,152,153,154,155,156",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "10718,10800,10904,11013,11133,11226",
-                        "endColumns": "81,103,108,119,92,69",
-                        "endOffsets": "10795,10899,11008,11128,11221,11291"
+                        "startLines": "158,162",
+                        "startColumns": "4,4",
+                        "startOffsets": "11367,11548",
+                        "endLines": "161,164",
+                        "endColumns": "12,12",
+                        "endOffsets": "11543,11712"
                     }
                 },
                 {
@@ -182,6 +182,23 @@
                     }
                 },
                 {
+                    "source": "C:\\dev\\vetApp\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endColumns": "91",
+                        "endOffsets": "141"
+                    },
+                    "to": {
+                        "startLines": "146",
+                        "startColumns": "4",
+                        "startOffsets": "10329",
+                        "endColumns": "91",
+                        "endOffsets": "10416"
+                    }
+                },
+                {
                     "source": "C:\\Users\\paulv\\.gradle\\caches\\transforms-3\\419b35202b345e23a66f39ff57b0ce1c\\transformed\\jetified-credentials-play-services-auth-1.2.0-rc01\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -215,23 +232,6 @@
                         "startOffsets": "10636",
                         "endColumns": "81",
                         "endOffsets": "10713"
-                    }
-                },
-                {
-                    "source": "C:\\dev\\vetApp\\only_vets_client\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endColumns": "91",
-                        "endOffsets": "141"
-                    },
-                    "to": {
-                        "startLines": "146",
-                        "startColumns": "4",
-                        "startOffsets": "10329",
-                        "endColumns": "91",
-                        "endOffsets": "10416"
                     }
                 }
             ]
