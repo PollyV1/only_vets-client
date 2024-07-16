@@ -24,6 +24,11 @@ import 'loading_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  
+  // Ensure that Firebase Messaging is initialized early
+  FirebaseMessaging.instance.getToken().then((token) {
+    print("FCM Token: $token");
+  });
 
   runApp(MyApp());
 }
@@ -57,7 +62,38 @@ class MyApp extends StatelessWidget {
       },
     );
 
-    // _showPermissionDialog();
+    // Request permissions immediately
+    _requestPermissions();
+  }
+
+  Future<void> _requestPermissions() async {
+    await flutterLocalNotificationsPlugin
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>()
+        ?.createNotificationChannel(
+          const AndroidNotificationChannel(
+            'default_channel',
+            'Default Channel',
+            importance: Importance.max,
+            playSound: true,
+            enableVibration: true,
+          ),
+        );
+
+    NotificationSettings settings = await FirebaseMessaging.instance.requestPermission(
+      alert: true,
+      announcement: false,
+      badge: true,
+      carPlay: false,
+      criticalAlert: false,
+      provisional: false,
+      sound: true,
+    );
+
+    if (settings.authorizationStatus != AuthorizationStatus.authorized) {
+      print('User declined or has not accepted notification permissions');
+      _showPermissionDialog();
+    }
   }
 
   Future<void> _showPermissionDialog() async {
@@ -78,31 +114,6 @@ class MyApp extends StatelessWidget {
           ],
         );
       },
-    );
-  }
-
-  Future<void> _requestPermissions() async {
-    await flutterLocalNotificationsPlugin
-        .resolvePlatformSpecificImplementation<
-            AndroidFlutterLocalNotificationsPlugin>()
-        ?.createNotificationChannel(
-          const AndroidNotificationChannel(
-            'default_channel',
-            'Default Channel',
-            importance: Importance.max,
-            playSound: true,
-            enableVibration: true,
-          ),
-        );
-
-    FirebaseMessaging.instance.requestPermission(
-      alert: true,
-      announcement: false,
-      badge: true,
-      carPlay: false,
-      criticalAlert: false,
-      provisional: false,
-      sound: true,
     );
   }
 
@@ -192,8 +203,8 @@ class MyApp extends StatelessWidget {
     if (message.data.containsKey('screen')) {
       String screenName = message.data['screen']!;
       String? currentRoute = ModalRoute.of(navigatorKey.currentContext!)?.settings.name;
-      if (currentRoute != '/notification') {
-        navigatorKey.currentState?.pushReplacementNamed('/notification');
+      if (currentRoute != screenName) {
+        navigatorKey.currentState?.pushReplacementNamed(screenName);
       }
     } else {
       navigatorKey.currentState?.pushReplacementNamed('/notification');
