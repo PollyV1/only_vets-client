@@ -1,0 +1,12 @@
+dev.flutter.integration_test-core-1.6.0-0 C:\Users\paulv\.gradle\caches\transforms-3\01d3a5cb27bf78db56261439eed0f1e9\transformed\core-1.6.0\res
+dev.flutter.integration_test-jetified-window-java-1.0.0-beta04-1 C:\Users\paulv\.gradle\caches\transforms-3\19627694e4f37ef0781a768383bd41ca\transformed\jetified-window-java-1.0.0-beta04\res
+dev.flutter.integration_test-jetified-window-1.0.0-beta04-2 C:\Users\paulv\.gradle\caches\transforms-3\373dc9ec0edd48c029804c9d0fd4681c\transformed\jetified-window-1.0.0-beta04\res
+dev.flutter.integration_test-jetified-annotation-experimental-1.1.0-3 C:\Users\paulv\.gradle\caches\transforms-3\ffb219462cfa0640a4282ceb3951e576\transformed\jetified-annotation-experimental-1.1.0\res
+dev.flutter.integration_test-pngs-4 C:\dev\vetApp\build\integration_test\generated\res\pngs\release
+dev.flutter.integration_test-resValues-5 C:\dev\vetApp\build\integration_test\generated\res\resValues\release
+dev.flutter.integration_test-rs-6 C:\dev\vetApp\build\integration_test\generated\res\rs\release
+dev.flutter.integration_test-mergeReleaseResources-7 C:\dev\vetApp\build\integration_test\intermediates\incremental\release\mergeReleaseResources\merged.dir
+dev.flutter.integration_test-mergeReleaseResources-8 C:\dev\vetApp\build\integration_test\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+dev.flutter.integration_test-merged_res-9 C:\dev\vetApp\build\integration_test\intermediates\merged_res\release
+dev.flutter.integration_test-main-10 C:\flutter\packages\integration_test\android\src\main\res
+dev.flutter.integration_test-release-11 C:\flutter\packages\integration_test\android\src\release\res
