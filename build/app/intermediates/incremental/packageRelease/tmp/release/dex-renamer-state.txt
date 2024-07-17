@@ -1,4 +1,4 @@
-#Wed Jul 17 22:35:56 CST 2024
+#Thu Jul 18 00:17:34 CST 2024
 base.0=C\:\\dev\\vetApp\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
