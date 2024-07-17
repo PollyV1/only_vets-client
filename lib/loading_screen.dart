@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:async';
-import 'package:flutter/services.dart'; // Import for accessing SystemChannels
+import 'package:flutter/services.dart';
 
 class LoadingScreen extends StatefulWidget {
   final GlobalKey<NavigatorState> navigatorKey;
@@ -20,12 +20,10 @@ class _LoadingScreenState extends State<LoadingScreen> {
   void initState() {
     super.initState();
     _startLoadingProcess();
-    // Hide keyboard when this screen is opened
     SystemChannels.textInput.invokeMethod('TextInput.hide');
   }
 
   void _startLoadingProcess() {
-    // Use a timer to delay the navigation
     _timer = Timer(Duration(seconds: 5), () {
       _checkLoginStatus();
     });
@@ -34,20 +32,37 @@ class _LoadingScreenState extends State<LoadingScreen> {
   Future<void> _checkLoginStatus() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? token = prefs.getString('token');
-    bool isLoggedIn = token != null;
+    bool isLoggedIn = await _verifyToken(token);
 
-    // Debug print statements to help diagnose the issue
     print('Token: $token');
     print('Is Logged In: $isLoggedIn');
 
     String initialRoute = isLoggedIn ? '/home' : '/login';
-    // Navigate to the appropriate screen
     widget.navigatorKey.currentState?.pushReplacementNamed(initialRoute);
+  }
+
+  Future<bool> _verifyToken(String? token) async {
+    if (token == null) return false;
+
+    // Add your token verification logic here.
+    // For example, make a network request to verify the token with your server.
+
+    try {
+      // Simulate network request
+      await Future.delayed(Duration(seconds: 1));
+      // Replace the line below with your actual token verification logic
+      bool isValid = true; // Assume the token is valid for demonstration purposes
+
+      return isValid;
+    } catch (e) {
+      print('Error verifying token: $e');
+      return false;
+    }
   }
 
   @override
   void dispose() {
-    _timer.cancel(); // Cancel the timer to prevent it from triggering after the screen is disposed
+    _timer.cancel();
     super.dispose();
   }
 
@@ -57,13 +72,11 @@ class _LoadingScreenState extends State<LoadingScreen> {
   }
 
   Widget _buildLoadingScreen() {
-    // Get the screen height and width
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
 
     return GestureDetector(
       onTap: () {
-        // Hide keyboard when tapped outside of a text field
         FocusScope.of(context).unfocus();
       },
       child: Scaffold(
@@ -79,7 +92,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                SizedBox(height: screenHeight * 0.1), // Top space
+                SizedBox(height: screenHeight * 0.1),
                 Container(
                   constraints: BoxConstraints(maxWidth: screenWidth * 0.8),
                   child: Text(
@@ -90,7 +103,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                     textAlign: TextAlign.center,
                   ),
                 ),
-                SizedBox(height: screenHeight * 0.2), // Space between lines
+                SizedBox(height: screenHeight * 0.2),
                 Container(
                   constraints: BoxConstraints(maxWidth: screenWidth * 0.8),
                   child: Text(
@@ -101,7 +114,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
                     textAlign: TextAlign.center,
                   ),
                 ),
-                SizedBox(height: screenHeight * 0.1), // Space between text and image
+                SizedBox(height: screenHeight * 0.1),
                 Image.asset('assets/images/dogCat.png'),
               ],
             ),

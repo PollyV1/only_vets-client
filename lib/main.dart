@@ -19,16 +19,23 @@ import 'login_page.dart';
 import 'register_page.dart';
 import 'location_page.dart';
 import 'notification_page.dart';
-import 'loading_screen.dart'; 
+import 'loading_screen.dart';
+
+Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+  await Firebase.initializeApp();
+  print("Handling a background message: ${message.messageId}");
+  // Handle your background message here
+}
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  
-  // Ensure that Firebase Messaging is initialized early
+
   FirebaseMessaging.instance.getToken().then((token) {
     print("FCM Token: $token");
   });
+
+  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   runApp(MyApp());
 }
@@ -62,7 +69,6 @@ class MyApp extends StatelessWidget {
       },
     );
 
-    // Request permissions immediately
     _requestPermissions();
   }
 
@@ -124,13 +130,17 @@ class MyApp extends StatelessWidget {
     });
 
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-      print(
-          "FCM Message opened from terminated state: ${message.notification?.title}");
+      print("FCM Message opened from terminated state: ${message.notification?.title}");
       _enqueueMessage(message);
     });
 
     FirebaseMessaging.instance.getToken().then((token) {
       print("FCM Token: $token");
+    });
+
+    FirebaseMessaging.instance.onTokenRefresh.listen((token) {
+      print("FCM Token refreshed: $token");
+      // Optionally, send the refreshed token to your server here.
     });
   }
 
@@ -157,8 +167,7 @@ class MyApp extends StatelessWidget {
       if (_isAppInForeground()) {
         print("App is in foreground, not showing notification");
       } else {
-        _showNotification(message.notification?.title, message.notification?.body,
-            message.data);
+        _showNotification(message.notification?.title, message.notification?.body, message.data);
       }
 
       _handleMessageNavigation(message);
@@ -173,8 +182,7 @@ class MyApp extends StatelessWidget {
     return navigatorKey.currentState?.overlay?.context != null;
   }
 
-  void _showNotification(
-      String? title, String? body, Map<String, dynamic> data) async {
+  void _showNotification(String? title, String? body, Map<String, dynamic> data) async {
     var androidPlatformChannelSpecifics = const AndroidNotificationDetails(
       'default_channel',
       'Default Channel',
@@ -185,8 +193,7 @@ class MyApp extends StatelessWidget {
       styleInformation: BigTextStyleInformation(''),
     );
 
-    var platformChannelSpecifics =
-        NotificationDetails(android: androidPlatformChannelSpecifics);
+    var platformChannelSpecifics = NotificationDetails(android: androidPlatformChannelSpecifics);
 
     await flutterLocalNotificationsPlugin.show(
       0,
@@ -215,7 +222,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
-      statusBarIconBrightness: Brightness.light, // Ensure status bar icons are visible
+      statusBarIconBrightness: Brightness.light,
     ));
     return MultiProvider(
       providers: [
@@ -241,7 +248,7 @@ class MyApp extends StatelessWidget {
           '/register': (context) => RegisterPage(),
           '/home': (context) => HomePage(),
           '/location': (context) => LocationPage(),
-          '/notification': (context) => NotificationPage(message: null,),
+          '/notification': (context) => NotificationPage(message: null),
         },
       ),
     );
