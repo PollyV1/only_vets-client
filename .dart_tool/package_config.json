@@ -206,6 +206,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_driver",
+      "rootUri": "file:///C:/flutter/packages/flutter_driver",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "flutter_launcher_icons",
       "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_launcher_icons-0.13.1",
       "packageUri": "lib/",
@@ -260,6 +266,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "fuchsia_remote_debug_protocol",
+      "rootUri": "file:///C:/flutter/packages/fuchsia_remote_debug_protocol",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.2.1",
       "packageUri": "lib/",
@@ -282,6 +294,12 @@
       "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/image-4.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.15"
+    },
+    {
+      "name": "integration_test",
+      "rootUri": "file:///C:/flutter/packages/integration_test",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "json_annotation",
@@ -423,13 +441,19 @@
     },
     {
       "name": "platform",
-      "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.5",
+      "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.4",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.0"
     },
     {
       "name": "plugin_platform_interface",
       "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/process-5.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -548,6 +572,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "sync_http",
+      "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/sync_http-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -638,6 +668,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "webdriver",
+      "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/webdriver-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "win32",
       "rootUri": "file:///C:/Users/paulv/AppData/Local/Pub/Cache/hosted/pub.dev/win32-5.5.1",
       "packageUri": "lib/",
@@ -668,7 +704,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-07-12T04:18:11.297994Z",
+  "generated": "2024-07-17T16:10:21.927752Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///C:/flutter",

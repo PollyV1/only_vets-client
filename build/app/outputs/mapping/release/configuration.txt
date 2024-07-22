@@ -161,6 +161,13 @@
 
 
 # End of content from C:\dev\vetApp\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\dev\vetApp\build\integration_test\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
+# For some reason org.kxml2.io.KXmlParser and org.kxml2.io.KXmlSerializer
+# are missing and not marked correctly by dependencies.
+# Possibly related to https://github.com/flutter/flutter/issues/56591
+# See https://github.com/flutter/flutter/issues/127388 for more context.
+-dontwarn org.kxml2.io.KXmlParser**,org.kxml2.io.KXmlSerializer**
+# End of content from C:\dev\vetApp\build\integration_test\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\f7596ae26cad3a732bea1bb4a0ae5092\transformed\jetified-firebase-firestore-25.0.0\proguard.txt
 # Needed for DNS resolution.  Present in OpenJDK, but not Android
 -dontwarn javax.naming.**
@@ -404,6 +411,57 @@
 # The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\322ead9578194ada88cb8164f7674677\transformed\jetified-firebase-encoders-json-18.0.0\proguard.txt
 
 # End of content from C:\Users\paulv\.gradle\caches\transforms-3\322ead9578194ada88cb8164f7674677\transformed\jetified-firebase-encoders-json-18.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\305d41fe305d4b72518d2b89ef2aac28\transformed\rules-1.2.0\proguard.txt
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+# End of content from C:\Users\paulv\.gradle\caches\transforms-3\305d41fe305d4b72518d2b89ef2aac28\transformed\rules-1.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\ed61d511785dcbc093124943e43779d6\transformed\espresso-core-3.2.0\proguard.txt
+# Common proguard flags for all the espresso libraries.
+
+# ignore 'cannot find java.beans and mockito integration' warnings
+-dontwarn org.hamcrest.**
+
+# ignore 'can't find referenced class sun.misc.Unsafe' from guava
+-dontwarn androidx.test.espresso.core.deps.guava.**
+
+# ignore 'can't find referenced class javax.lang.model.element.Modifier'
+-dontwarn com.squareup.javawriter.JavaWriter
+
+# ignore 'can't find referenced class sun.misc.Unsafe, libcore.io.Memory' from protobuf
+-dontwarn androidx.test.espresso.core.deps.protobuf.**
+
+# ignore 'can't find referenced method android.app.Instrumentation' from android.jar
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# End of content from C:\Users\paulv\.gradle\caches\transforms-3\ed61d511785dcbc093124943e43779d6\transformed\espresso-core-3.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\3a97cd4dd1418e1dfda737bddefa84f9\transformed\runner-1.2.0\proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# for 'library class android.test.* extends or implements program class'
+-dontwarn android.test.**
+
+# for 'can't find referenced class java.lang.management.RuntimeMXBean'
+-dontwarn org.junit.rules.DisableOnDebug
+
+# for 'can't find referenced class java.lang.management.ThreadMXBean'
+-dontwarn org.junit.internal.runners.statements.FailOnTimeout
+
+# for 'can't find referenced class java.beans.**, easymock, etc
+-dontwarn org.hamcrest.**
+# End of content from C:\Users\paulv\.gradle\caches\transforms-3\3a97cd4dd1418e1dfda737bddefa84f9\transformed\runner-1.2.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\cfe41ee0d3b5ff0281bdab9ba8aca526\transformed\media-1.1.0\proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
@@ -586,6 +644,19 @@
 -dontwarn com.google.auto.value.AutoValue$Builder
 
 # End of content from C:\Users\paulv\.gradle\caches\transforms-3\cccf049d02bdd331d63cb152adfb00d7\transformed\jetified-transport-api-3.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\718440ca72f6bf44dc7fd81a4ea83ca0\transformed\monitor-1.2.0\proguard.txt
+# Proguard flags for the AndroidJUnitRunner library.
+
+# avoid obfuscation of the instrumentation runners and orchestrator
+-keepnames class androidx.test.**
+
+# Annotation classes accessed via reflection
+-keep class androidx.test.annotation.** { *; }
+
+# for 'can't find referenced method 'android.app.Instrumentation$ActivityResult execStartActivity' etc
+-dontwarn androidx.test.runner.MonitoringInstrumentation
+
+# End of content from C:\Users\paulv\.gradle\caches\transforms-3\718440ca72f6bf44dc7fd81a4ea83ca0\transformed\monitor-1.2.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\paulv\.gradle\caches\transforms-3\d62c8449eac05fd628e8afdd02604fb6\transformed\lifecycle-runtime-2.3.1\proguard.txt
 -keepattributes *Annotation*
 

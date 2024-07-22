@@ -35,8 +35,9 @@ com.example.only_vets_client.app-packaged_res-33 C:\dev\vetApp\build\firebase_me
 com.example.only_vets_client.app-packaged_res-34 C:\dev\vetApp\build\flutter_local_notifications\intermediates\packaged_res\release
 com.example.only_vets_client.app-packaged_res-35 C:\dev\vetApp\build\flutter_phone_direct_caller\intermediates\packaged_res\release
 com.example.only_vets_client.app-packaged_res-36 C:\dev\vetApp\build\fluttertoast\intermediates\packaged_res\release
-com.example.only_vets_client.app-packaged_res-37 C:\dev\vetApp\build\path_provider_android\intermediates\packaged_res\release
-com.example.only_vets_client.app-packaged_res-38 C:\dev\vetApp\build\permission_handler_android\intermediates\packaged_res\release
-com.example.only_vets_client.app-packaged_res-39 C:\dev\vetApp\build\push_android\intermediates\packaged_res\release
-com.example.only_vets_client.app-packaged_res-40 C:\dev\vetApp\build\shared_preferences_android\intermediates\packaged_res\release
-com.example.only_vets_client.app-packaged_res-41 C:\dev\vetApp\build\url_launcher_android\intermediates\packaged_res\release
+com.example.only_vets_client.app-packaged_res-37 C:\dev\vetApp\build\integration_test\intermediates\packaged_res\release
+com.example.only_vets_client.app-packaged_res-38 C:\dev\vetApp\build\path_provider_android\intermediates\packaged_res\release
+com.example.only_vets_client.app-packaged_res-39 C:\dev\vetApp\build\permission_handler_android\intermediates\packaged_res\release
+com.example.only_vets_client.app-packaged_res-40 C:\dev\vetApp\build\push_android\intermediates\packaged_res\release
+com.example.only_vets_client.app-packaged_res-41 C:\dev\vetApp\build\shared_preferences_android\intermediates\packaged_res\release
+com.example.only_vets_client.app-packaged_res-42 C:\dev\vetApp\build\url_launcher_android\intermediates\packaged_res\release
